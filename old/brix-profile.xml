@@ -1,0 +1,112 @@
+<profile>
+	<name>Jumbotron Narrow</name>
+    <author>Bootstrap</author>
+    <portfolio>http://getbootstrap.com/getting-started/#examples</portfolio>
+	<properties>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Project name</description>
+     		<selector>div[class="header"] h3:last-child</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil">
+            <description>Menu option 1</description>
+            <selector>ul[class="nav nav-pills pull-right"] li a:eq(1)</selector>
+            <file>*</file>
+        </prop>
+        <prop type="prop" icon="pencil">
+            <description>Menu option 2</description>
+            <selector>ul[class="nav nav-pills pull-right"] li a:eq(2)</selector>
+            <file>*</file>
+        </prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Header text</description>
+     		<selector>div[class="jumbotron"] h1</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Lead text</description>
+     		<selector>p[class="lead"]</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil">
+    		<description>Button</description>
+    		<selector>div[class="jumbotron"] p:eq(1) a[role="button"]</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 header 1</description>
+     		<selector>div[class="col-lg-6"]:eq(0) h4:eq(0)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 text 1</description>
+     		<selector>div[class="col-lg-6"]:eq(0) p:eq(0)</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 header 2</description>
+     		<selector>div[class="col-lg-6"]:eq(0) h4:eq(1)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 text 2</description>
+     		<selector>div[class="col-lg-6"]:eq(0) p:eq(1)</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 header 3</description>
+     		<selector>div[class="col-lg-6"]:eq(0) h4:eq(2)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 1 text 3</description>
+     		<selector>div[class="col-lg-6"]:eq(0) p:eq(2)</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 header 1</description>
+     		<selector>div[class="col-lg-6"]:eq(1) h4:eq(0)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 text 1</description>
+     		<selector>div[class="col-lg-6"]:eq(1) p:eq(0)</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 header 2</description>
+     		<selector>div[class="col-lg-6"]:eq(1) h4:eq(1)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 text 2</description>
+     		<selector>div[class="col-lg-6"]:eq(1) p:eq(1)</selector>
+			<file>*</file>
+  		</prop>
+  		<prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 header 3</description>
+     		<selector>div[class="col-lg-6"]:eq(1) h4:eq(2)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Col 2 text 3</description>
+     		<selector>div[class="col-lg-6"]:eq(1) p:eq(2)</selector>
+			<file>*</file>
+  		</prop>
+        <prop type="prop" icon="pencil-square-o">
+     		<description>Footer</description>
+     		<selector>div[class="footer"] p</selector>
+			<file>*</file>
+  		</prop>
+		<prop type="class" icon="paint-brush">
+    		<description>Body color</description>
+    		<selector>.body</selector>
+			<file>jumbotron-narrow.css</file>
+  		</prop>
+		<prop type="class" icon="paint-brush">
+    		<description>Body backcolor</description>
+    		<selector>.body</selector>
+			<file>jumbotron-narrow.css</file>
+  		</prop>
+    </properties>
+</profile>
